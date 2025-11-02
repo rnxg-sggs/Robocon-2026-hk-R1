@@ -1,0 +1,67 @@
+# Build directories (always ignore)
+Debug/
+Release/
+
+# STM32CubeIDE settings (ignore all)
+.settings/
+
+# Eclipse / STM32CubeIDE workspace metadata (workspace-specific)
+.metadata/
+
+# VS Code (ignore all but keep extensions.json)
+.vscode/*
+!.vscode/extensions.json
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.d
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.la
+*.lo
+
+# Shared objects / DLLs
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debugging / profiling
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel module build stuff
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
